@@ -1,0 +1,8 @@
+* {
+    -webkit-user-select: none;
+}
+input, textarea, select, button, option, 
+[contenteditable="true"], [contenteditable="true"] *,
+.emoji-wysiwyg-editor, .emoji-wysiwyg-editor * {
+    -webkit-user-select: initial;
+}

@@ -1,0 +1,340 @@
+.error-summary {
+    color: #f00;
+}
+
+.title div span, .description div span {
+    float: left;
+}
+
+.title div.item-content, .description div.item-content {
+    float: left;
+}
+
+.widget-img {
+    margin: 0;
+}
+
+.item-content {
+    width: 85%;
+}
+
+.items-manage-buttons {
+    margin-top: 10px;
+}
+
+.item-image-add {
+    margin-top: -10px;
+    min-height: 20px;
+}
+
+.item-image-icons {
+    padding: 0 5px;
+    background: white;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 1;
+}
+
+.item-image-icons span {
+    font-size: 18px;
+    color: #337ab7;
+    margin: 5px 0 5px 5px;
+    padding: 0 5px 0 0;
+}
+
+.item-image-icons span.active {
+    color: #f00;
+}
+
+.mission-state-icons-wrapper {
+    width: 80px;
+    min-height: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.mission-state-icons {
+    padding: 7px 10px;
+    background: white;
+    opacity: 0.9;
+}
+
+.mission-state-icons span {
+    font-size: 18px;
+    color: #777;
+    width: 35%;
+}
+
+.mission-state-icons span.active {
+    color: #337ab7;
+}
+
+.lesson-list .title span.help-icons::after, .lesson-list .description span.help-icons::after {
+    content: '\f044';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    padding-left: 5px;
+    color: #777;
+    -webkit-font-smoothing: antialiased;
+}
+
+.lesson-list .item-image-add span::after {
+    content: '\f03e';
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    padding-left: 5px;
+    color: #777;
+    -webkit-font-smoothing: antialiased;
+}
+
+.lesson-list {
+    list-style: none;
+    background: #ecf0f1;
+    padding: 10px 0;
+    margin: 0 0 20px;
+}
+
+.lesson-list li {
+    margin: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.fast-edit.lesson-list li {
+    margin: 20px 20px 30px;
+}
+
+.lesson-list li a {
+    display: block;
+}
+.fast-edit.lesson-list li a {
+    position: relative;
+}
+
+.lesson-list li a:hover {
+    text-decoration: none
+}
+
+.lesson-list li .title {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-right: 20px;
+    display: block;
+}
+.fast-edit.lesson-list li .title {
+    margin: 0 20px 10px 0;
+    min-width: 250px;
+    min-height: 20px;
+}
+
+.lesson-list li .info {
+    margin-left: 60px;
+    padding-top: 0;
+    height: 100%;
+    background: white;
+}
+.fast-edit.lesson-list li .info {
+    min-height: 88px
+}
+
+.lesson-list li .info .vmiddle {
+    display: block;
+    padding-right: 20px
+}
+
+.lesson-list .description {
+    display: block;
+    font-size: 14px;
+    color: #222;
+    width: 90%;
+}
+.fast-edit.lesson-list .description {
+    min-width: 250px;
+    min-height: 20px
+}
+
+.lesson-list .tags .label {
+    font-size: 0.7em;
+    margin-left: 10px
+}
+
+.lesson-list li.user-state-reached .info {
+    border-left: 1px solid #ecf0f1
+}
+
+.lesson-list li.user-state-reached .user-state-label {
+    display: none;
+}
+
+.lesson-list li.user-state-reached .user-state-label.is-stop-lesson {
+    display: inline-block;
+}
+
+.lesson-list li .state-icon-block {
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 100%;
+    min-height: 78px;
+    width: 60px;
+    text-align: center;
+    margin-right: 20px;
+    padding-top: 28px;
+}
+.fast-edit.lesson-list li .state-icon-block {
+    min-height: 88px;
+}
+
+.lesson-list li .state-icon-block .fui {
+    color: white;
+}
+
+.lesson-list li .state-block {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+    border-right: 2px solid #ecf0f1;
+    height: 100%;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.lesson-list .user-state-label {
+    font-weight: bold;
+    display: block;
+}
+
+.lesson-list .state-label {
+    font-size: 13px;
+    color: #222;
+}
+
+.lesson-list li {
+    min-height: 76px;
+}
+
+.lesson-list li.user-state-not_reached {
+    cursor: default
+}
+
+.lesson-list li.user-state-not_reached a {
+    color: #222;
+}
+
+.lesson-list li.user-state-not_reached .info {
+    background: #d9dfe2;
+}
+
+.lesson-list li.user-state-not_reached .info {
+    border-left: 1px solid #ecf0f1
+}
+
+.lesson-list li.user-state-not_reached .link {
+    color: #2c3e50;
+    cursor: default
+}
+
+.lesson-list li.user-state-not_reached .link:hover {
+    text-decoration: none
+}
+
+.lesson-list li.divider {
+    height: auto;
+    margin-bottom: 0;
+}
+
+.lesson-list li.first-unreached {
+    margin-top: 0;
+}
+
+.lesson-list li.with-image .state-icon-block {
+    margin-right: 0;
+    padding-top: 52px;
+}
+
+.lesson-list li .main-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.lesson-list li table td {
+    vertical-align: middle;
+    min-height: 78px;
+}
+
+.lesson-list li table {
+    min-height: 78px;
+    min-width: 260px;
+}
+.fast-edit.lesson-list li table {
+    min-width: 300px;
+}
+
+.lesson-list li .item-a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.lesson-list li.lesson-is-hidden {
+    min-height: 0;
+    background: white;
+    padding: 5px;
+    opacity: 0.5;
+}
+
+.lesson-list .item-main-td {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.lesson-list .item-main-td.item-with-image {
+    padding-left: 20px;
+    height: 120px;
+}
+
+.lesson-list li.user-state-reached .user-state-label.has-start-at {
+    display: block;
+}
+
+@media (max-width: 520px) {
+    .lesson-list li .item-image {
+        display: none
+    }
+}
+
+@media (max-width: 767px) {
+    .lesson-list li .vmiddle {
+        margin-left: 20px;
+    }
+
+    .lesson-list li {
+        border-radius: 0;
+    }
+
+    .lesson-list li .info {
+        margin-left: 0;
+    }
+
+    .lesson-list li {
+        margin: 5px 5px 10px;
+    }
+}
+
+.lesson-list__video-watched {
+    color: #fcfcfc;
+    background-color: #c4c4c4;
+    font-size: 60%;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 20px;
+    display: none;
+    text-transform: capitalize;
+}
+
+.lesson-list_watched .lesson-list__video-watched {
+    display: inline-block;
+}
